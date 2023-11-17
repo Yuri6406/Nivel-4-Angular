@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    margin: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 10px;
+    width: 90%;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: left;  
+}
+
+tr {
+    background-color: rgb(185, 185, 185);
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+td{
+    padding: 15px;
+  }
+
+  .excluir {
+    background-color: red;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    transition: ease;
+  }
+  
+  .excluir:hover {
+    background-color: red;
+    opacity: 1;
+  }
+  
